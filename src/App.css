@@ -21,33 +21,7 @@
   display: none;
 }
 
-/* @media screen and (max-width: 700px) {
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end !important;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    margin-top: -8px;
-  }
-  .img-thumbnail {
-    padding: .15rem !important;
-    background-color: whitesmoke!important;
-  }
-  .text {
-    color: whitesmoke !important;
-    font-size: 12px;
-  }
-  .App-link {
-    color: whitesmoke !important;
-    font-size: 10px;
-  }
-} */
-
-.App-header {
+.App-body {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -56,6 +30,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.cat1Cat2 {
+  display: flex;
+  cursor: pointer;
 }
 
 .score {
@@ -81,4 +60,68 @@
 .btn {
   border-radius: 5px !important;
   font-size: 12px !important;
+}
+
+.imgListProfil {
+  border-radius: 5px;
+  box-shadow: -2px 1px 6px -2px rgba(17, 17, 17, 0.8);
+  width: 9rem;
+  height: 6rem;
+}
+
+.card {
+  width: 18rem;
+  height: 7rem;
+  padding-left: 4px;
+}
+
+.container {
+  display: flex;
+}
+
+.catMax {
+  position: fixed;
+  margin-left: 20rem;
+}
+
+.catMax img {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: -2px 1px 6px -2px rgba(17, 17, 17, 0.8);
+}
+
+@media screen and (max-width: 555px) {
+  .App-body {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin-top: -8px;
+  }
+  .img-thumbnail {
+    padding: .15rem !important;
+    background-color: whitesmoke!important;
+  }
+  .text {
+    color: whitesmoke !important;
+    font-size: 12px;
+  }
+  .App-link {
+    color: whitesmoke !important;
+    font-size: 10px;
+  }
+  .cat1Cat2 {
+    display: block;
+    cursor: pointer;
+  }
+  .catMax {
+    display: none;
+  }
+  .ItemCats {
+    margin-left: 100px !;
+  }
 }
