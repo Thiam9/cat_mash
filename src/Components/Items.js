@@ -2,7 +2,6 @@ import React from 'react';
 import '../App.css'
 
 const Items = ({ cat }) => {
-    // console.log(cat)
     return (
 
 

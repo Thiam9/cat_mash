@@ -19,24 +19,18 @@ const CatItem = (cats, props) => {
 
     return (
         <>
-
-            {/* <button type="button" class="btn btn-outline-secondary" onClick={() => props.history.push('/')}>Secondary</button> */}
-
             <div>
+                <div className="btnReturnSmallSize">
+                    <NavLink exact to={{ pathname: '/', }} activeClassName="navActive">
+                        <button type="button" class="btn btn-outline-secondary btnReturn" style={{ marginLeft: 25 }} >Recommencer le vote</button>
+                    </NavLink>
+
+                </div>
                 <div className="container mt-2 ">
 
 
                     <div className="ItemCats">
-                        <NavLink exact to={{
-                            pathname: '/',
-                            state: stateCat
-                        }} activeClassName="navActive">
-                            <button type="button" class="btn btn-outline-secondary" style={{ marginLeft: 25 }} >Revenir au vote</button>
-                        </NavLink>
                         {stateCat.map((cat) => <Items key={cat.id} cat={cat} />)}
-
-
-
                     </div>
 
                     <div className="catMax">
@@ -44,6 +38,12 @@ const CatItem = (cats, props) => {
 
                         <img src={stateCat[index].url} alt="cat" className="img-thumbnail" />
                         <p style={{ marginLeft: 110 }} className="title">Score: {stateCat[index].score} </p>
+                        <div className="btnReturn">
+                            <NavLink exact to={{ pathname: '/', }} activeClassName="navActive">
+                                <button type="button" class="btn btn-outline-secondary btnReturn" style={{ marginLeft: 25 }} >Recommencer le vote</button>
+                            </NavLink>
+
+                        </div>
 
 
 

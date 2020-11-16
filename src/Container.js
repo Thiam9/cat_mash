@@ -47,7 +47,7 @@ const Container = () => {
         copyDataCat[index] = { ...copyDataCat[index], score: copyDataCat[index].score + 1 }
         setDataCat(copyDataCat)
 
-        // console.log(dataCat)
+
 
         const indexCat1 = Math.floor(Math.random() * dataCat.length);
         const indexCat2 = Math.floor(Math.random() * dataCat.length);
@@ -55,10 +55,6 @@ const Container = () => {
         setCat1(dataCat[indexCat1])
         setCat2(dataCat[indexCat2])
     }
-
-
-    // const dataCatItem = dataCat.map(objeCtCat => objeCtCat);
-    // console.log(dataCatItem);
 
 
     return (
@@ -91,19 +87,14 @@ const Container = () => {
                 <div className="CopyRight">
                     <a
                         className="App-link"
-                        href="https://www.thiamibrahima.dev/"
+                        href="https://www.linkedin.com/in/ibnrahimathiam/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Copy Right Ibrahima Thiam 2020
+                        Copy Right Ibrahima Thiam AKA Lemzo 2020
                     </a>
                 </div>
             </div>
-            {/* <div className="catItem">
-                <CatItem cats={dataCat} />
-            </div> */}
-
-
         </div>
 
 

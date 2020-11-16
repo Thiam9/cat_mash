@@ -11,7 +11,6 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route path="/" exact component={Container} />
-          {/* <Route path="/prendreRdv" component={PrendreRdv} /> */}
           <Route path="/scoreAllCat" component={CatItem} />
         </Switch>
       </BrowserRouter>

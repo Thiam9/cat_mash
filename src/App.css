@@ -91,6 +91,14 @@
   box-shadow: -2px 1px 6px -2px rgba(17, 17, 17, 0.8);
 }
 
+.btnReturn {
+  margin-left: 40px;
+}
+
+.btnReturnSmallSize {
+  display: none;
+}
+
 @media screen and (max-width: 555px) {
   .App-body {
     background-color: #282c34;
@@ -123,5 +131,11 @@
   }
   .ItemCats {
     margin-left: 100px !;
+  }
+  .btnReturnSmallSize {
+    display: unset;
+    position: fixed;
+    margin-left: 60%;
+    margin-right: 50%;
   }
 }
