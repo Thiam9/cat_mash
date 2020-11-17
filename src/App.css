@@ -3,7 +3,7 @@
 }
 
 .text {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .img-thumbnail {
@@ -39,12 +39,12 @@
 
 .score {
   color: #61dafb;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .App-link {
   color: #61dafb;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .CopyRight {
@@ -81,12 +81,12 @@
 
 .catMax {
   position: fixed;
-  margin-left: 20rem;
+  margin-left: 30rem;
 }
 
 .catMax img {
-  width: 250px;
-  height: 250px;
+  width: 320px;
+  height: 320px;
   border-radius: 5px;
   box-shadow: -2px 1px 6px -2px rgba(17, 17, 17, 0.8);
 }
@@ -111,16 +111,15 @@
     margin-top: -8px;
   }
   .img-thumbnail {
-    padding: .15rem !important;
+    padding: .20rem !important;
     background-color: whitesmoke!important;
   }
   .text {
     color: whitesmoke !important;
-    font-size: 12px;
+    font-size: 15px;
   }
   .App-link {
-    color: whitesmoke !important;
-    font-size: 10px;
+    display: none;
   }
   .cat1Cat2 {
     display: block;

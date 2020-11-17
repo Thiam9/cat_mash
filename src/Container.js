@@ -67,11 +67,11 @@ const Container = () => {
                     </p>
                 <div className="cat1Cat2">
                     <div style={{ marginRight: 40 }} className="imgCat">
-                        <img src={cat1.url} title="j'aime" alt="logo" style={{ width: 140, height: 160 }} class="img-thumbnail" onClick={_ => getRandomCAtandScore(cat1.id)} />
+                        <img src={cat1.url} title="j'aime" alt="logo" style={{ width: 260, height: 260 }} class="img-thumbnail" onClick={_ => getRandomCAtandScore(cat1.id)} />
                         <p> score: {cat1.score} </p>
                     </div>
                     <div className="imgCat">
-                        <img src={cat2.url} title="j'aime" alt="logo" style={{ width: 140, height: 160 }} class="img-thumbnail" onClick={_ => getRandomCAtandScore(cat2.id)} />
+                        <img src={cat2.url} title="j'aime" alt="logo" style={{ width: 260, height: 260 }} class="img-thumbnail" onClick={_ => getRandomCAtandScore(cat2.id)} />
                         <p> score: {cat2.score} </p>
                     </div>
 
@@ -81,13 +81,13 @@ const Container = () => {
                     state: dataCat
                 }}
                     activeClassName="navActive">
-                    <button type="button" className="btn btn-outline-info">Voir les plus beau chats </button>
+                    <button type="button" className="btn btn-outline-info">Voir les plus beaux chats </button>
                 </NavLink>
 
                 <div className="CopyRight">
                     <a
                         className="App-link"
-                        href="https://www.linkedin.com/in/ibnrahimathiam/"
+                        href="https://www.linkedin.com/in/ibrahima-thiam-047b0314b/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

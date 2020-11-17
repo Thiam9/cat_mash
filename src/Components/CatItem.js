@@ -22,7 +22,7 @@ const CatItem = (cats, props) => {
             <div>
                 <div className="btnReturnSmallSize">
                     <NavLink exact to={{ pathname: '/', }} activeClassName="navActive">
-                        <button type="button" class="btn btn-outline-secondary btnReturn" style={{ marginLeft: 25 }} >Recommencer le vote</button>
+                        <button type="button" class="btn btn-outline-secondary btnReturn" style={{ marginLeft: 30 }} >Recommencer le vote</button>
                     </NavLink>
 
                 </div>
@@ -34,21 +34,17 @@ const CatItem = (cats, props) => {
                     </div>
 
                     <div className="catMax">
-                        <p style={{ marginLeft: 40 }} className="title">Le chats le plus mignon</p>
+                        <p style={{ marginLeft: 70 }} className="title">Le chats le plus mignon </p>
 
                         <img src={stateCat[index].url} alt="cat" className="img-thumbnail" />
-                        <p style={{ marginLeft: 110 }} className="title">Score: {stateCat[index].score} </p>
+                        <p style={{ marginLeft: 130 }} className="title">Score: {stateCat[index].score} </p>
                         <div className="btnReturn">
                             <NavLink exact to={{ pathname: '/', }} activeClassName="navActive">
-                                <button type="button" class="btn btn-outline-secondary btnReturn" style={{ marginLeft: 25 }} >Recommencer le vote</button>
+                                <button type="button" class="btn btn-outline-secondary btnReturn" style={{ marginLeft: 50 }} >Recommencer le vote</button>
                             </NavLink>
 
                         </div>
-
-
-
                     </div>
-
                 </div>
             </div>
         </>
